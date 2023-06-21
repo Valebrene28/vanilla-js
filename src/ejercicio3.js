@@ -1,4 +1,6 @@
 // Inserte el código aquí
+
+///////////////1////////////
 let emojis = ["🌸", "🌺", "🌷"]
 
 let clonarArreglo = function (emojis) {
@@ -11,10 +13,33 @@ clonarArreglo(emojis)
 // NO MODIFICAR
 //export { clonarArreglo, clonarObjeto, sumar, saludar };
 
-let flores = ("")
+// NO MODIFICAR
+// export { clonarArreglo, clonarObjeto, sumar, saludar };
 
-let clonarObjeto = function () {
-    nuevoArreglo = [...emojis]
-    console.log(nuevoArreglo)
-    return nuevoArreglo
+//////////////////////////////2/////////////////
+let personas = {
+    edward: 50,
+    valery: 20,
+    astrid: 29,
 }
+
+let cambio= function () {
+    let personasClone = personas
+    console.log(personasClone+(" años"))
+    return personasClone
+}
+cambio()
+
+////////////////////3/////////////////////
+
+
+
+
+
+///////////////4////////////////////
+
+function saludar (nombre){
+    nombre = "Desconocido"
+    return "Hola" +(nombre)
+}
+console.log(saludar("Maria"))
