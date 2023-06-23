@@ -18,6 +18,6 @@ function calcular(operacion, numero1, numero2) {
 let resultadoSuma = calcular("sumar", 1, 2);
 let resultadoResta = calcular("restar", 5, 2);
 let resultadoMultiplicar = calcular("multiplicar", 3, 2);
-let resultadoDividir = calcular("dividir", 20, 2);
+let resultadoDividir = calcular("dividir", 50, 3);
 
 console.log(resultadoMultiplicar);
