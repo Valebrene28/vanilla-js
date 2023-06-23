@@ -1,22 +1,21 @@
-function suma (num1, num2) {
-    return num1 + num2;
+function suma(num1, num2) {
+  return num1 + num2;
 }
 
-function resta (num1, num2) {
-    return num1 - num2;
-
+function resta(num1, num2) {
+  return num1 - num2;
 }
 
-function multiplicar (num1, num2) {
-    return num1 * num2;
+function multiplicar(num1, num2) {
+  return num1 * num2;
 }
 
-function dividir (num1, num2) {
-    return num1 / num2;
+function dividir(num1, num2) {
+  return num1 / num2;
 }
 
-// function filtrarpares(numero) { 
-//   return (numero % 2) == 0; 
+// function filtrarpares(numero) {
+//   return (numero % 2) == 0;
 // }
 
 // function filtrarpares(listaN){
@@ -28,21 +27,17 @@ function dividir (num1, num2) {
 //       }
 
 //     }
-//     console.log(arreglo) 
-
+//     console.log(arreglo)
 // }
-function filtrarpares(lista){
-    return lista.filter((numero) =>
-    numero % 2 === 0);
+function filtrarpares(lista) {
+  return lista.filter((numero) => numero % 2 === 0);
 }
 
-function filtrardivisibles(lista){
-    return lista.filter((numero) => numero % 5 === 0);
+function filtrardivisibles(lista) {
+  return lista.filter((numero) => numero % 5 === 0);
 }
 
-export {suma,resta,multiplicar,dividir,filtrarpares,filtrardivisibles}
-
-
+export { suma, resta, multiplicar, dividir, filtrarpares, filtrardivisibles };
 
 // function divisibles (num1, num2) {
 
