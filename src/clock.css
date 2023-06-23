@@ -1,0 +1,84 @@
+#todo {
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 800px;
+}
+
+#encabezado{
+    background-color:  rgb(11, 8, 9);
+    height: 100px;
+    border-radius: 40px;
+
+
+}
+#reloj{
+    background-color: blue;
+    height: 500px;
+}
+
+#hora{
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+	height: 300px;
+    border-radius: 50px;
+    
+}
+
+#horaActual{
+    font-size: 70px;
+    margin-left: 210px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #010000;
+
+    text-shadow: 0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb, 
+                0 4px 0 #b9b9b9, 
+                0 5px 0 #aaa, 
+                0 6px 1px rgba(0, 0, 0, .1), 
+                0 0 5px rgba(0, 0, 0, .1), 
+                0 1px 3px rgba(0, 0, 0, .3), 
+                0 3px 5px rgba(0, 0, 0, .2), 
+                0 5px 10px rgba(0, 0, 0, .25), 
+                0 10px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15) ;
+
+}
+
+#digitalc{
+    position: absolute;
+    top: 4%;
+    background: -webkit-linear-gradient(rgb(228, 132, 148), rgba(0, 0, 255, 0.582));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    margin-left: 200px;
+   
+}
+
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+
+    background-color: #f16cbe42;
+}
